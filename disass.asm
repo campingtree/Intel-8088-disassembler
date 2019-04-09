@@ -10,7 +10,7 @@
 	hex_base db "0123456789ABCDEF"
 
 	; MESSAGES
-	help_mess db "HELP ME :(", "$"
+	help_mess db "disass.exe file.exe output.asm", "$"
 	args_mess db "Unknown arguments...", "$"
 	overflow_mess db "One the the arguments is to long!", "$"
 	error_mess db "Error occurred: ", "$"
