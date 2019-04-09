@@ -3,7 +3,7 @@
 ## Peculiarities:
 * Disassembles only the core commands.
 * List of disassemblable commands can be found in [core.inc](/core.inc) FORMAT struct table.
-* Disassembles full .exe files (*not .com*)
+* Disassembles full .exe files *(not .com files)*
 
 ## To run:
 `disass.exe input_program.exe output.asm`
@@ -12,3 +12,4 @@
 * Simply add the format for your desired command in [core.inc](/core.inc) FORMAT struct table. Then in [disass.asm](/disass.asm), write the according parsing procedure.
 
 ## Notes:
+* This is by no means a satisfactory product. It was marely written as an exercise at university.
